@@ -1,0 +1,44 @@
+{
+  "background_color": "#fff",
+  "description": "W.U.R - Warm Up Roll",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "icon/icon-192.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "icon/icon-512.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "W.U.R",
+  "related_applications": [],
+  "short_name": "W.U.R",
+  "start_url": "/",
+  "screenshots": [
+    {
+      "src": "screenshots/wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "wide"
+    },
+    {
+      "src": "screenshots/mobile.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "platform": "ios",
+      "label": "ios mobile"
+    },
+    {
+      "src": "screenshots/mobile.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "platform": "android",
+      "label": "android mobile"
+    }
+  ]
+}

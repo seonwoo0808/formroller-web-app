@@ -7,6 +7,10 @@
 
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
+import * as serviceWorkerRegistration from "./lib/serviceWorkerRegister";
+
+// Register the service worker for offline capabilities and PWA features
+serviceWorkerRegistration.register();
 
 // biome-ignore lint/style/noNonNullAssertion: <>
 const elem = document.getElementById("root")!;
